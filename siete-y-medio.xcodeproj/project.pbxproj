@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		416B2F76208B133400880184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 416B2F75208B133400880184 /* main.cpp */; };
+		416B2F7E208B154B00880184 /* cards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 416B2F7D208B154B00880184 /* cards.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		416B2F72208B133400880184 /* siete-y-medio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "siete-y-medio"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416B2F75208B133400880184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		416B2F7C208B151900880184 /* cards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cards.h; sourceTree = "<group>"; };
+		416B2F7D208B154B00880184 /* cards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cards.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				416B2F75208B133400880184 /* main.cpp */,
+				416B2F7C208B151900880184 /* cards.h */,
+				416B2F7D208B154B00880184 /* cards.cpp */,
 			);
 			path = "siete-y-medio";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				416B2F76208B133400880184 /* main.cpp in Sources */,
+				416B2F7E208B154B00880184 /* cards.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
